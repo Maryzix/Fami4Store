@@ -1,0 +1,63 @@
+
+
+/*parte de cima cinza*/
+.promo { 
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 140%;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.promo_texto { 
+    width: 100%;
+   margin: 0 auto;
+}
+.logo { 
+    width:158px ;
+    height: 43px;
+}
+
+.imgbusca { 
+    width: 29px;
+    height: 28px;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    padding: 1px 6px;
+    
+  }
+
+  #divBusca img{
+    float:left;
+    
+  }

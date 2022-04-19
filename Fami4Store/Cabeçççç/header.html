@@ -4,32 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    
     <title>Header</title>
 </head>
-<body>
-    <header class="cabeçalho"> 
-        <div class="promo"> 
-            <p class="promo_texto"> Aproveite o frete grátis para Sul e Sudeste nas compras a partir de R$199,99, por tempo limitado*</p>
-        </div>
-        
-        <div> 
-            <img src="img/logo.jpg" class="logo">
-        </div>
 
-        <div id="divBusca">
-            <img src="img/busca.png" alt="Buscar..." class="imgbusca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <button id="btnBusca">Buscar</button>
-         </div>
-         
-        <div>
-        <p> Caixa de texto</p> 
-        <i><a href="#"> icone de telefone</a></i>
-        <p> entre ou cadastre-se</p>
-        <p> Minha cesta</p>
+
+<body>
+    <div class="barra"> 
+        <p>10% DE DESCONTO EM TODA LOJA, NO MÊS DE ABRIL</p>
+        </div>
+    <!--cabeçalho-->
+    <header>
+        
+        <div class="center flex align-flex-center">
+            <div class="logo"> 
+                <img src="img/logo.jpg" alt="logo da loja" >
+            </div>
+
+            <!--localização-->
+        <div class="text-info-header">
+            <p>Olá<br><span class="text" style="font-size: 12px;"><i class="fa fa-map-marker" aria-hidden="true"></i>
+            Selecione o Endereço</span></p>
+        </div> 
+
+        <!--procura-->
+        <div class="input-search"> 
+            <form action="a" method="post">
+                <input type="text" name="search" id="search" placeholder="Search...." required >
+                <button type="submit"> 
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>  
+
+        <!--text-parte-login-->
+        <div class="text-info-header"> 
+            <p>Faça o seu login<br></p>
+            <p class="text"> Entre ou Cadastre-se </p>
+        </div> 
+
+        <!--carrinho de compra-->
+        <div class="text-info-header">
+            <p class="flex aling-flex-end"><i class="fa fa-shopping-basket fa-2x
+                " aria-hidden="true"></i>
+                <span style="padding:0 8px; font-size: 16px; font-weight: bold;">Carrinho</span> 
+            </p>
+        </div>
         </div>
     </header>
+
+    <!--menu-->
+    <nav class="menu"> 
+        <ul> 
+            <li><a href="#">TODAS AS CATEGORIAS</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LISTA DE CASAMENTO</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">BANHEIRO E LAVANDERIA</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">BAR E MESA</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CASA, MESA E BANHO</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">COZINHA</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LIXEIRAS</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MOVÉIS DE DECORAÇÃO</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul></li>
+            <li><a href="#">ORGANIZAÇÃO</a>
+                <ul>
+                    <li><a href="#">TECNOLOGIA</a></li>
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">BANHEIRO</a></li>
+                    <li><a href="#">ETC</a></li>
+                    <li><a href="#">ETC</a></li>
+                </ul></li>
+        </ul>
+
+    </nav>
+
+    <!--banner-->
+    <main class="container">
+        <img src="img/banner.png" alt="banner da lojah" style="width: 100%;">
+    </main>
+
+
+
 </body>
 </html>
+
